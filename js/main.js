@@ -5,15 +5,9 @@ onload = () => {
 
     const titles = ('Happy Birthday Fitrii😄😁').split('')
     const titleElement = document.getElementById('title');
+    titleElement.setAttribute('translate', 'no');
+    titleElement.classList.add('notranslate');
     let index = 0;
-
-    // 2. Tambahkan atribut pencegah terjemahan
-// titles.setAttribute("translate", "no"); 
-
-// // 2. Tambahkan atribut pencegah terjemahan
-// titleElement.setAttribute("translate", "no"); 
-// // ATAU gunakan class
-// titleElement.classList.add("notranslate");
 
     function appendTitle() {
       if (index < titles.length) {
