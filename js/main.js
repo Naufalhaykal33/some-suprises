@@ -9,8 +9,6 @@ onload = () => {
 
     // 2. Tambahkan atribut pencegah terjemahan
 titles.setAttribute("translate", "no"); 
-// ATAU gunakan class
-titles.classList.add("notranslate");
 
 // // 2. Tambahkan atribut pencegah terjemahan
 // titleElement.setAttribute("translate", "no"); 
