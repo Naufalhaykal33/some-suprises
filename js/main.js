@@ -8,7 +8,7 @@ onload = () => {
     let index = 0;
 
     // 2. Tambahkan atribut pencegah terjemahan
-titles.setAttribute("translate", "no"); 
+// titles.setAttribute("translate", "no"); 
 
 // // 2. Tambahkan atribut pencegah terjemahan
 // titleElement.setAttribute("translate", "no"); 
